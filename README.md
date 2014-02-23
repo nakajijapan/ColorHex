@@ -2,6 +2,7 @@
 
 [![Version](http://cocoapod-badges.herokuapp.com/v/UIColor-Hex/badge.png)](http://cocoadocs.org/docsets/UIColor-Hex)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/UIColor-Hex/badge.png)](http://cocoadocs.org/docsets/UIColor-Hex)
+[![Build Status](https://travis-ci.org/nakajijapan/UIColor-Hex.png?branch=master)](https://travis-ci.org/nakajijapan/UIColor-Hex)
 
 ## Installation
 
