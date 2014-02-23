@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
                        UIColor-Hex
                        DESC
   s.homepage         = "http://github.com/nakajijapan"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "nakajijapan" => "pp.kupepo.gattyanmo@gmail.com" }
   s.source           = { :git => "https://github.com/UIColor-Hex.git", :tag => s.version.to_s }
