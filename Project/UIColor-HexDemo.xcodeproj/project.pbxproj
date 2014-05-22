@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC23E42F192DA0F4009900D7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD577A18BA5CC200C52D57 /* UIColor+Hex.m */; };
 		DC344E6C18B9CEFB0058A3C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC344E6B18B9CEFB0058A3C0 /* Foundation.framework */; };
 		DC344E6E18B9CEFB0058A3C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC344E6D18B9CEFB0058A3C0 /* CoreGraphics.framework */; };
 		DC344E7018B9CEFB0058A3C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC344E6F18B9CEFB0058A3C0 /* UIKit.framework */; };
@@ -23,8 +24,6 @@
 		DC344E9818B9CEFB0058A3C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC344E9618B9CEFB0058A3C0 /* InfoPlist.strings */; };
 		DC344E9A18B9CEFB0058A3C0 /* UIColor_HexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC344E9918B9CEFB0058A3C0 /* UIColor_HexDemoTests.m */; };
 		DCAD577B18BA5CC200C52D57 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD577A18BA5CC200C52D57 /* UIColor+Hex.m */; };
-		DCD7EAC018BCC70D00B783F8 /* UIColor+Hex.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAD577918BA5CC200C52D57 /* UIColor+Hex.h */; };
-		DCD7EAC118BCC71600B783F8 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD577A18BA5CC200C52D57 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,7 +214,7 @@
 		DC344E6018B9CEFB0058A3C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = net.nakajijapan;
 				TargetAttributes = {
 					DC344E8B18B9CEFB0058A3C0 = {
@@ -280,9 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD7EAC118BCC71600B783F8 /* UIColor+Hex.m in Sources */,
-				DCD7EAC018BCC70D00B783F8 /* UIColor+Hex.h in Sources */,
 				DC344E9A18B9CEFB0058A3C0 /* UIColor_HexDemoTests.m in Sources */,
+				DC23E42F192DA0F4009900D7 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +334,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -380,7 +377,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -443,7 +439,6 @@
 		DC344EA118B9CEFB0058A3C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIColor-HexDemo.app/UIColor-HexDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -466,7 +461,6 @@
 		DC344EA218B9CEFB0058A3C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIColor-HexDemo.app/UIColor-HexDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
