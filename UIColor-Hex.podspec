@@ -10,5 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.source_files     = 'Classes'
   s.osx.exclude_files = 'Classes/ios'
-  s.platform         = :ios
+  s.platform         = :ios, '8.0'
+  s.ios.deployment_target = '8.0'
+  s.frameworks       = 'XCTest'
 end
