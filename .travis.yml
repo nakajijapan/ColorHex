@@ -1,9 +1,4 @@
 language: swift
 
-before_install:
-  - brew update
-  - brew uninstall xctool
-  - brew install xctool
-
 script:
   - make clean test
