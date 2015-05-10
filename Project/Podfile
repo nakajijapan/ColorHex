@@ -1,7 +1,0 @@
-pod "UIColor-Hex", :path => "../UIColor-Hex.podspec"
-
-target "Demo" do
-end
-
-target "DemoTests" do
-end
