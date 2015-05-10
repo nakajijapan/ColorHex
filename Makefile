@@ -1,7 +1,7 @@
 # Makefile
-PROJECT = Project/UIColor-HexDemo.xcodeproj
-SCHEME_TARGET = UIColor-HexDemo
-TEST_TARGET = UIColor-HexDemoTests
+PROJECT = Project/Demo.xcodeproj
+SCHEME_TARGET = Demo
+TEST_TARGET = DemoTests
 
 clean:
 	xcodebuild \
@@ -19,7 +19,6 @@ build:
 
 test:
 	xctool -arch i386 \
-		-destination "name=iPhone Retina (4-inch),OS=7.0" \
 		-configuration Debug \
 		-sdk iphonesimulator \
 		-project $(PROJECT) \
