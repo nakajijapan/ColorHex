@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.source_files     = 'Classes'
   s.osx.exclude_files = 'Classes/ios'
-  s.platform         = :ios, '8.0'
-  s.ios.deployment_target = '8.0'
+  s.platform         = :ios, '7.1'
+  s.ios.deployment_target = '7.1'
 end
