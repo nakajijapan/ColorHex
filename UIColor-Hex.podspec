@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UIColor-Hex"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Initializes the UIColor using hexadecimal."
   s.homepage         = "http://github.com/nakajijapan"
   s.license          = 'MIT'
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source_files     = 'Classes'
   s.osx.exclude_files = 'Classes/ios'
   s.platform         = :ios, '7.1'
-  s.ios.deployment_target = '7.1'
+  s.ios.deployment_target = '8.0'
 end
