@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC76FA041C00442600646B67 /* UIColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76FA031C00442600646B67 /* UIColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC76FA081C00442600646B67 /* UIColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC76FA011C00442600646B67 /* UIColorHex.framework */; };
+		DC76FA091C00442600646B67 /* UIColorHex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC76FA011C00442600646B67 /* UIColorHex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC76FA0E1C00442E00646B67 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A6BB1AFF74CF00C486AA /* UIColorHex.swift */; };
 		DC87A69B1AFF740E00C486AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A69A1AFF740E00C486AA /* AppDelegate.swift */; };
 		DC87A69D1AFF740E00C486AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A69C1AFF740E00C486AA /* ViewController.swift */; };
 		DC87A6A01AFF740E00C486AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC87A69E1AFF740E00C486AA /* Main.storyboard */; };
@@ -17,7 +21,26 @@
 		DC87A6BD1AFF7DF500C486AA /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A6BB1AFF74CF00C486AA /* UIColorHex.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		DC76FA0F1C00443900646B67 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.xcode.tools.swift.compiler;
+			fileType = sourcecode.swift;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(SWIFT_EXEC)\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXContainerItemProxy section */
+		DC76FA061C00442600646B67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC87A68D1AFF740E00C486AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC76FA001C00442600646B67;
+			remoteInfo = UIColorHex;
+		};
 		DC87A6AB1AFF740E00C486AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC87A68D1AFF740E00C486AA /* Project object */;
@@ -27,7 +50,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DC76FA0D1C00442600646B67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DC76FA091C00442600646B67 /* UIColorHex.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DC76FA011C00442600646B67 /* UIColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76FA031C00442600646B67 /* UIColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorHex.h; sourceTree = "<group>"; };
+		DC76FA051C00442600646B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC87A6951AFF740E00C486AA /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC87A6991AFF740E00C486AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC87A69A1AFF740E00C486AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +82,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DC76F9FD1C00442600646B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC87A6921AFF740E00C486AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC76FA081C00442600646B67 /* UIColorHex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +107,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC76FA021C00442600646B67 /* UIColorHex */ = {
+			isa = PBXGroup;
+			children = (
+				DC76FA031C00442600646B67 /* UIColorHex.h */,
+				DC76FA051C00442600646B67 /* Info.plist */,
+			);
+			path = UIColorHex;
+			sourceTree = "<group>";
+		};
 		DC87A68C1AFF740E00C486AA = {
 			isa = PBXGroup;
 			children = (
 				DC87A6BA1AFF749F00C486AA /* Classes */,
 				DC87A6971AFF740E00C486AA /* Demo */,
 				DC87A6AD1AFF740E00C486AA /* DemoTests */,
+				DC76FA021C00442600646B67 /* UIColorHex */,
 				DC87A6961AFF740E00C486AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +132,7 @@
 			children = (
 				DC87A6951AFF740E00C486AA /* Demo.app */,
 				DC87A6AA1AFF740E00C486AA /* DemoTests.xctest */,
+				DC76FA011C00442600646B67 /* UIColorHex.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +186,37 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DC76F9FE1C00442600646B67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76FA041C00442600646B67 /* UIColorHex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		DC76FA001C00442600646B67 /* UIColorHex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC76FA0C1C00442600646B67 /* Build configuration list for PBXNativeTarget "UIColorHex" */;
+			buildPhases = (
+				DC76F9FC1C00442600646B67 /* Sources */,
+				DC76F9FD1C00442600646B67 /* Frameworks */,
+				DC76F9FE1C00442600646B67 /* Headers */,
+				DC76F9FF1C00442600646B67 /* Resources */,
+			);
+			buildRules = (
+				DC76FA0F1C00443900646B67 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = UIColorHex;
+			productName = UIColorHex;
+			productReference = DC76FA011C00442600646B67 /* UIColorHex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DC87A6941AFF740E00C486AA /* Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC87A6B41AFF740E00C486AA /* Build configuration list for PBXNativeTarget "Demo" */;
@@ -135,10 +224,12 @@
 				DC87A6911AFF740E00C486AA /* Sources */,
 				DC87A6921AFF740E00C486AA /* Frameworks */,
 				DC87A6931AFF740E00C486AA /* Resources */,
+				DC76FA0D1C00442600646B67 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DC76FA071C00442600646B67 /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
@@ -174,6 +265,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = net.nakajijapan;
 				TargetAttributes = {
+					DC76FA001C00442600646B67 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
 					DC87A6941AFF740E00C486AA = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -198,11 +292,19 @@
 			targets = (
 				DC87A6941AFF740E00C486AA /* Demo */,
 				DC87A6A91AFF740E00C486AA /* DemoTests */,
+				DC76FA001C00442600646B67 /* UIColorHex */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DC76F9FF1C00442600646B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC87A6931AFF740E00C486AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +325,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DC76F9FC1C00442600646B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76FA0E1C00442E00646B67 /* UIColorHex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC87A6911AFF740E00C486AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +355,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DC76FA071C00442600646B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC76FA001C00442600646B67 /* UIColorHex */;
+			targetProxy = DC76FA061C00442600646B67 /* PBXContainerItemProxy */;
+		};
 		DC87A6AC1AFF740E00C486AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC87A6941AFF740E00C486AA /* Demo */;
@@ -272,6 +387,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DC76FA0A1C00442600646B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UIColorHex/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nakajijapan.UIColorHex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC76FA0B1C00442600646B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UIColorHex/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nakajijapan.UIColorHex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DC87A6B21AFF740E00C486AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.nakajijapan.$(PRODUCT_NAME:rfc1034identifier)";
@@ -369,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.nakajijapan.$(PRODUCT_NAME:rfc1034identifier)";
@@ -415,6 +575,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DC76FA0C1C00442600646B67 /* Build configuration list for PBXNativeTarget "UIColorHex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC76FA0A1C00442600646B67 /* Debug */,
+				DC76FA0B1C00442600646B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DC87A6901AFF740E00C486AA /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
