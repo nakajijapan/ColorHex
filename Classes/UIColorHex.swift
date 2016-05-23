@@ -8,7 +8,8 @@
 
 import UIKit
 
-extension UIColor {
+
+@objc extension UIColor {
     
     public convenience init(hex hex:Int) {
         self.init(hex:hex, alpha:1.0)
