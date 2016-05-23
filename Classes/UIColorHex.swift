@@ -22,6 +22,8 @@ extension UIColor {
         self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
     
+    // MARK - For Objective-C
+    
     public class func colorWithHex(hex:Int) -> UIColor {
         return UIColor(hex:hex, alpha:1.0)
     }
