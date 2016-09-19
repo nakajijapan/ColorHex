@@ -25,4 +25,4 @@ test:
 		-sdk iphonesimulator \
 		-destination 'name=iPhone 6' \
 		-project $(PROJECT) \
-		clean test
+		test
