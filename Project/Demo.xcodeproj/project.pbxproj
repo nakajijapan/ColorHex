@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC6519AF1D8FAFC000D80E01 /* UICelorHexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6519AE1D8FAFC000D80E01 /* UICelorHexTests.m */; };
+		DC6519AF1D8FAFC000D80E01 /* UIColorHexObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6519AE1D8FAFC000D80E01 /* UIColorHexObjCTests.m */; };
 		DC76FA041C00442600646B67 /* UIColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76FA031C00442600646B67 /* UIColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC76FA081C00442600646B67 /* UIColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC76FA011C00442600646B67 /* UIColorHex.framework */; };
 		DC76FA091C00442600646B67 /* UIColorHex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC76FA011C00442600646B67 /* UIColorHex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -17,7 +17,7 @@
 		DC87A6A01AFF740E00C486AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC87A69E1AFF740E00C486AA /* Main.storyboard */; };
 		DC87A6A21AFF740E00C486AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC87A6A11AFF740E00C486AA /* Images.xcassets */; };
 		DC87A6A51AFF740E00C486AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC87A6A31AFF740E00C486AA /* LaunchScreen.xib */; };
-		DC87A6B11AFF740E00C486AA /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A6B01AFF740E00C486AA /* DemoTests.swift */; };
+		DC87A6B11AFF740E00C486AA /* UIColorHexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A6B01AFF740E00C486AA /* UIColorHexTests.swift */; };
 		DC87A6BC1AFF74CF00C486AA /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A6BB1AFF74CF00C486AA /* UIColorHex.swift */; };
 		DC87A6BD1AFF7DF500C486AA /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87A6BB1AFF74CF00C486AA /* UIColorHex.swift */; };
 /* End PBXBuildFile section */
@@ -67,7 +67,7 @@
 
 /* Begin PBXFileReference section */
 		DC6519AC1D8FAFBF00D80E01 /* DemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		DC6519AE1D8FAFC000D80E01 /* UICelorHexTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICelorHexTests.m; sourceTree = "<group>"; };
+		DC6519AE1D8FAFC000D80E01 /* UIColorHexObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorHexObjCTests.m; sourceTree = "<group>"; };
 		DC76FA011C00442600646B67 /* UIColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC76FA031C00442600646B67 /* UIColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorHex.h; sourceTree = "<group>"; };
 		DC76FA051C00442600646B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		DC87A6A41AFF740E00C486AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DC87A6AA1AFF740E00C486AA /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC87A6AF1AFF740E00C486AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC87A6B01AFF740E00C486AA /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
+		DC87A6B01AFF740E00C486AA /* UIColorHexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHexTests.swift; sourceTree = "<group>"; };
 		DC87A6BB1AFF74CF00C486AA /* UIColorHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,8 +164,8 @@
 		DC87A6AD1AFF740E00C486AA /* DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC87A6B01AFF740E00C486AA /* DemoTests.swift */,
-				DC6519AE1D8FAFC000D80E01 /* UICelorHexTests.m */,
+				DC87A6B01AFF740E00C486AA /* UIColorHexTests.swift */,
+				DC6519AE1D8FAFC000D80E01 /* UIColorHexObjCTests.m */,
 				DC87A6AE1AFF740E00C486AA /* Supporting Files */,
 			);
 			path = DemoTests;
@@ -355,8 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6519AF1D8FAFC000D80E01 /* UICelorHexTests.m in Sources */,
-				DC87A6B11AFF740E00C486AA /* DemoTests.swift in Sources */,
+				DC6519AF1D8FAFC000D80E01 /* UIColorHexObjCTests.m in Sources */,
+				DC87A6B11AFF740E00C486AA /* UIColorHexTests.swift in Sources */,
 				DC87A6BD1AFF7DF500C486AA /* UIColorHex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

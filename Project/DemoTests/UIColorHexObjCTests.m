@@ -9,12 +9,12 @@
 #import <XCTest/XCTest.h>
 #import <UIColorHex/UIColorHex-Swift.h>
 
-@interface UICelorHexTests : XCTestCase
+@interface UIColorHexTests : XCTestCase
 
 @end
 
 
-@implementation UICelorHexTests
+@implementation UIColorHexTests
 
 - (void)testWhiteColorForObjc
 {
