@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC6519AF1D8FAFC000D80E01 /* UICelorHexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6519AE1D8FAFC000D80E01 /* UICelorHexTests.m */; };
 		DC76FA041C00442600646B67 /* UIColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76FA031C00442600646B67 /* UIColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC76FA081C00442600646B67 /* UIColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC76FA011C00442600646B67 /* UIColorHex.framework */; };
 		DC76FA091C00442600646B67 /* UIColorHex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC76FA011C00442600646B67 /* UIColorHex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -65,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC6519AC1D8FAFBF00D80E01 /* DemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC6519AE1D8FAFC000D80E01 /* UICelorHexTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICelorHexTests.m; sourceTree = "<group>"; };
 		DC76FA011C00442600646B67 /* UIColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC76FA031C00442600646B67 /* UIColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorHex.h; sourceTree = "<group>"; };
 		DC76FA051C00442600646B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				DC87A6B01AFF740E00C486AA /* DemoTests.swift */,
+				DC6519AE1D8FAFC000D80E01 /* UICelorHexTests.m */,
 				DC87A6AE1AFF740E00C486AA /* Supporting Files */,
 			);
 			path = DemoTests;
@@ -170,6 +174,7 @@
 		DC87A6AE1AFF740E00C486AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC6519AC1D8FAFBF00D80E01 /* DemoTests-Bridging-Header.h */,
 				DC87A6AF1AFF740E00C486AA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -350,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6519AF1D8FAFC000D80E01 /* UICelorHexTests.m in Sources */,
 				DC87A6B11AFF740E00C486AA /* DemoTests.swift in Sources */,
 				DC87A6BD1AFF7DF500C486AA /* UIColorHex.swift in Sources */,
 			);
@@ -406,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.nakajijapan.UIColorHex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -429,7 +435,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -551,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -560,6 +567,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.nakajijapan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoTests/DemoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
@@ -569,11 +578,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.nakajijapan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoTests/DemoTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
