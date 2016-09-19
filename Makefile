@@ -18,12 +18,11 @@ build:
 		TEST_HOST=
 
 test:
-	xctool -arch i386 \
+	xcodebuild \
+		-scheme $(SCHEME_TARGET) \
+		-destination-timeout 1 \
 		-configuration Debug \
 		-sdk iphonesimulator \
+		-destination 'name=iPhone 6' \
 		-project $(PROJECT) \
-		-scheme $(SCHEME_TARGET) \
-		clean test \
-		-parallelize -freshSimulator -freshInstall --showTasks \
-		TEST_HOST= \
-		TEST_AFTER_BUILD=YES
+		test

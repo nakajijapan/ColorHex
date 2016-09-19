@@ -22,13 +22,11 @@ extension UIColor {
         self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
     
-    // MARK - For Objective-C
-    
-    public class func colorWithHex(hex:Int) -> UIColor {
+    public class func color(hex:Int) -> UIColor {
         return UIColor(hex:hex, alpha:1.0)
     }
     
-    public class func colorWithHex(hex:Int, alpha:CGFloat) -> UIColor {
+    public class func color(hex:Int, alpha:CGFloat) -> UIColor {
         let red   = CGFloat((0xff0000 & hex) >> 16) / 255.0
         let green = CGFloat((0xff00   & hex) >> 8)  / 255.0
         let blue  = CGFloat(0xff      & hex)        / 255.0
