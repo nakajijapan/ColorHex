@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UIColorHex"
-  s.version          = "1.3.0"
+  s.version          = "1.3.1"
   s.summary          = "Initializes the UIColor using hexadecimal."
   s.homepage         = "http://github.com/nakajijapan"
   s.license          = 'MIT'
