@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         for color:Int in colors {
             let button = UIButton(frame: CGRect(x: 50, y: height, width: 100, height: 50))
-            button.setTitle("button", forState: UIControlState())
+            button.setTitle("button", for: UIControlState())
             button.backgroundColor = UIColor(hex: color)
             self.view.addSubview(button)
             height += 54
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         for color:Int in colors {
             let button = UIButton(frame: CGRect(x: 50, y: height, width: 100, height: 50))
-            button.setTitle("button", forState: UIControlState())
+            button.setTitle("button", for: UIControlState())
             button.backgroundColor = UIColor(hex: color, alpha:0.3)
             self.view.addSubview(button)
             height += 54
