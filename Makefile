@@ -1,28 +1,29 @@
 # Makefile
-PROJECT = Project/Demo.xcodeproj
-SCHEME_TARGET = Demo
+PROJECT = ColorHex
+WORKSPACE = $(PROJECT).xcworkspace
+SCHEME = $(PROJECT)-iOS
 TEST_TARGET = DemoTests
 
 clean:
 	xcodebuild \
-		-project $(PROJECT) \
+		-workspace $(WORKSPACE) \
+		-scheme $(SCHEME) \
 		clean
 
 build:
 	xcodebuild \
-		-project $(PROJECT) \
-		-target $(TEST_TARGET) \
-		-sdk iphonesimulator \
+		-workspace $(WORKSPACE) \
+		-scheme $(SCHEME) \
 		-configuration Debug \
 		TEST_AFTER_BUILD=YES \
 		TEST_HOST=
 
 test:
 	xcodebuild \
-		-scheme $(SCHEME_TARGET) \
+		-workspace $(WORKSPACE) \
+		-scheme $(SCHEME) \
 		-destination-timeout 1 \
 		-configuration Debug \
 		-sdk iphonesimulator \
-		-destination 'name=iPhone 6' \
-		-project $(PROJECT) \
+		-destination 'name=iPhone X' \
 		test
