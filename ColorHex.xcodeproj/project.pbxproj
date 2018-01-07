@@ -16,7 +16,7 @@
 		DC1D07232001FED0008B1000 /* ColorHex_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D07222001FED0008B1000 /* ColorHex_macOSTests.swift */; };
 		DC1D07252001FED0008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D068D2001E25F008B1000 /* ColorHex.framework */; };
 		DC1D073120020AE3008B1000 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D072E20020AE3008B1000 /* UIColor+Hex.swift */; };
-		DC1D073220020AE3008B1000 /* NSColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D073020020AE3008B1000 /* NSColor+Hex.swift */; };
+		DC1D073320021540008B1000 /* NSColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D073020020AE3008B1000 /* NSColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -333,7 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1D06C92001E77F008B1000 /* Hex.swift in Sources */,
-				DC1D073220020AE3008B1000 /* NSColor+Hex.swift in Sources */,
 				DC1D073120020AE3008B1000 /* UIColor+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1D073320021540008B1000 /* NSColor+Hex.swift in Sources */,
 				DC1D06CA2001E7F0008B1000 /* Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
