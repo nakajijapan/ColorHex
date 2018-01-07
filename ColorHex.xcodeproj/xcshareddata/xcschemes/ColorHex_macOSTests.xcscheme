@@ -17,7 +17,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC1D06DD2001EF13008B1000"
+               BlueprintIdentifier = "DC1D071F2001FED0008B1000"
                BuildableName = "ColorHex_macOSTests.xctest"
                BlueprintName = "ColorHex_macOSTests"
                ReferencedContainer = "container:ColorHex.xcodeproj">

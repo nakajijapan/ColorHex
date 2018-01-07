@@ -14,6 +14,7 @@
 		DC1D06BB2001E2B1008B1000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1D06B92001E2B1008B1000 /* LaunchScreen.storyboard */; };
 		DC1D070A2001F89F008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D07092001F89F008B1000 /* ColorHex.framework */; };
 		DC1D070B2001F89F008B1000 /* ColorHex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D07092001F89F008B1000 /* ColorHex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC1D072C2001FFE7008B1000 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DC1D072B2001FFE7008B1000 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		DC1D06BA2001E2B1008B1000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC1D06BC2001E2B1008B1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1D07092001F89F008B1000 /* ColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1D072B2001FFE7008B1000 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DC1D07092001F89F008B1000 /* ColorHex.framework */,
+				DC1D072B2001FFE7008B1000 /* README.md */,
 				DC1D06AF2001E2B1008B1000 /* ColorHexDemo */,
 				DC1D06AE2001E2B1008B1000 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				DC1D06BB2001E2B1008B1000 /* LaunchScreen.storyboard in Resources */,
 				DC1D06B82001E2B1008B1000 /* Assets.xcassets in Resources */,
+				DC1D072C2001FFE7008B1000 /* README.md in Resources */,
 				DC1D06B62001E2B1008B1000 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

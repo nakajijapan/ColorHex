@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DC1D066D2001E1B8008B1000"
-               BuildableName = "ColorHex_iOS.framework"
+               BuildableName = "ColorHex.framework"
                BlueprintName = "ColorHex-iOS"
                ReferencedContainer = "container:ColorHex.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC1D07102001FE7B008B1000"
+               BuildableName = "ColorHex_iOSTests.xctest"
+               BlueprintName = "ColorHex_iOSTests"
+               ReferencedContainer = "container:ColorHex.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC1D066D2001E1B8008B1000"
+            BuildableName = "ColorHex.framework"
+            BlueprintName = "ColorHex-iOS"
+            ReferencedContainer = "container:ColorHex.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -48,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DC1D066D2001E1B8008B1000"
-            BuildableName = "ColorHex_iOS.framework"
+            BuildableName = "ColorHex.framework"
             BlueprintName = "ColorHex-iOS"
             ReferencedContainer = "container:ColorHex.xcodeproj">
          </BuildableReference>
@@ -66,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DC1D066D2001E1B8008B1000"
-            BuildableName = "ColorHex_iOS.framework"
+            BuildableName = "ColorHex.framework"
             BlueprintName = "ColorHex-iOS"
             ReferencedContainer = "container:ColorHex.xcodeproj">
          </BuildableReference>
