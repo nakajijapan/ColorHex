@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		DC1D067F2001E1B8008B1000 /* ColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1D06712001E1B8008B1000 /* ColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC1D06C22001E3C7008B1000 /* ColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1D06712001E1B8008B1000 /* ColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC1D06C42001E444008B1000 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06C32001E444008B1000 /* UIColor+Hex.swift */; };
-		DC1D06C72001E454008B1000 /* NSColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06C52001E44F008B1000 /* NSColor+Hex.swift */; };
 		DC1D06C92001E77F008B1000 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06C82001E77F008B1000 /* Hex.swift */; };
 		DC1D06CA2001E7F0008B1000 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06C82001E77F008B1000 /* Hex.swift */; };
 		DC1D07142001FE7B008B1000 /* ColorHex_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D07132001FE7B008B1000 /* ColorHex_iOSTests.swift */; };
 		DC1D07162001FE7B008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D066E2001E1B8008B1000 /* ColorHex.framework */; };
 		DC1D07232001FED0008B1000 /* ColorHex_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D07222001FED0008B1000 /* ColorHex_macOSTests.swift */; };
 		DC1D07252001FED0008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D068D2001E25F008B1000 /* ColorHex.framework */; };
+		DC1D073120020AE3008B1000 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D072E20020AE3008B1000 /* UIColor+Hex.swift */; };
+		DC1D073220020AE3008B1000 /* NSColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D073020020AE3008B1000 /* NSColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 		DC1D06712001E1B8008B1000 /* ColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorHex.h; sourceTree = "<group>"; };
 		DC1D06722001E1B8008B1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1D068D2001E25F008B1000 /* ColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC1D06C32001E444008B1000 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		DC1D06C52001E44F008B1000 /* NSColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Hex.swift"; sourceTree = "<group>"; };
 		DC1D06C82001E77F008B1000 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
 		DC1D07112001FE7B008B1000 /* ColorHex_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHex_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1D07132001FE7B008B1000 /* ColorHex_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex_iOSTests.swift; sourceTree = "<group>"; };
@@ -50,6 +48,8 @@
 		DC1D07202001FED0008B1000 /* ColorHex_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHex_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1D07222001FED0008B1000 /* ColorHex_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex_macOSTests.swift; sourceTree = "<group>"; };
 		DC1D07242001FED0008B1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1D072E20020AE3008B1000 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		DC1D073020020AE3008B1000 /* NSColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 				DC1D06712001E1B8008B1000 /* ColorHex.h */,
 				DC1D06722001E1B8008B1000 /* Info.plist */,
 				DC1D06C82001E77F008B1000 /* Hex.swift */,
-				DC1D06C32001E444008B1000 /* UIColor+Hex.swift */,
-				DC1D06C52001E44F008B1000 /* NSColor+Hex.swift */,
+				DC1D072D20020AE3008B1000 /* iOS */,
+				DC1D072F20020AE3008B1000 /* macOS */,
 			);
 			path = ColorHex;
 			sourceTree = "<group>";
@@ -135,6 +135,22 @@
 				DC1D07242001FED0008B1000 /* Info.plist */,
 			);
 			path = ColorHex_macOSTests;
+			sourceTree = "<group>";
+		};
+		DC1D072D20020AE3008B1000 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D072E20020AE3008B1000 /* UIColor+Hex.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		DC1D072F20020AE3008B1000 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D073020020AE3008B1000 /* NSColor+Hex.swift */,
+			);
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,8 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1D06C42001E444008B1000 /* UIColor+Hex.swift in Sources */,
 				DC1D06C92001E77F008B1000 /* Hex.swift in Sources */,
+				DC1D073220020AE3008B1000 /* NSColor+Hex.swift in Sources */,
+				DC1D073120020AE3008B1000 /* UIColor+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1D06C72001E454008B1000 /* NSColor+Hex.swift in Sources */,
 				DC1D06CA2001E7F0008B1000 /* Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
