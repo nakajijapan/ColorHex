@@ -13,21 +13,21 @@
 		DC1D06C72001E454008B1000 /* NSColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06C52001E44F008B1000 /* NSColor+Hex.swift */; };
 		DC1D06C92001E77F008B1000 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06C82001E77F008B1000 /* Hex.swift */; };
 		DC1D06CA2001E7F0008B1000 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06C82001E77F008B1000 /* Hex.swift */; };
-		DC1D06D22001EE78008B1000 /* ColorHex_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06D12001EE78008B1000 /* ColorHex_iOSTests.swift */; };
-		DC1D06D42001EE78008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D066E2001E1B8008B1000 /* ColorHex.framework */; };
-		DC1D06E12001EF13008B1000 /* ColorHex_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D06E02001EF13008B1000 /* ColorHex_macOSTests.swift */; };
-		DC1D06E32001EF14008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D068D2001E25F008B1000 /* ColorHex.framework */; };
+		DC1D07142001FE7B008B1000 /* ColorHex_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D07132001FE7B008B1000 /* ColorHex_iOSTests.swift */; };
+		DC1D07162001FE7B008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D066E2001E1B8008B1000 /* ColorHex.framework */; };
+		DC1D07232001FED0008B1000 /* ColorHex_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1D07222001FED0008B1000 /* ColorHex_macOSTests.swift */; };
+		DC1D07252001FED0008B1000 /* ColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D068D2001E25F008B1000 /* ColorHex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC1D06D52001EE78008B1000 /* PBXContainerItemProxy */ = {
+		DC1D07172001FE7B008B1000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC1D06652001E1B8008B1000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DC1D066D2001E1B8008B1000;
 			remoteInfo = "ColorHex-iOS";
 		};
-		DC1D06E42001EF14008B1000 /* PBXContainerItemProxy */ = {
+		DC1D07262001FED0008B1000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC1D06652001E1B8008B1000 /* Project object */;
 			proxyType = 1;
@@ -44,12 +44,12 @@
 		DC1D06C32001E444008B1000 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		DC1D06C52001E44F008B1000 /* NSColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Hex.swift"; sourceTree = "<group>"; };
 		DC1D06C82001E77F008B1000 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
-		DC1D06CF2001EE78008B1000 /* ColorHex_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHex_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC1D06D12001EE78008B1000 /* ColorHex_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex_iOSTests.swift; sourceTree = "<group>"; };
-		DC1D06D32001EE78008B1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC1D06DE2001EF13008B1000 /* ColorHex_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHex_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC1D06E02001EF13008B1000 /* ColorHex_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex_macOSTests.swift; sourceTree = "<group>"; };
-		DC1D06E22001EF13008B1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1D07112001FE7B008B1000 /* ColorHex_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHex_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1D07132001FE7B008B1000 /* ColorHex_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex_iOSTests.swift; sourceTree = "<group>"; };
+		DC1D07152001FE7B008B1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1D07202001FED0008B1000 /* ColorHex_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHex_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1D07222001FED0008B1000 /* ColorHex_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex_macOSTests.swift; sourceTree = "<group>"; };
+		DC1D07242001FED0008B1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,19 +67,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC1D06CC2001EE78008B1000 /* Frameworks */ = {
+		DC1D070E2001FE7B008B1000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1D06D42001EE78008B1000 /* ColorHex.framework in Frameworks */,
+				DC1D07162001FE7B008B1000 /* ColorHex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC1D06DB2001EF13008B1000 /* Frameworks */ = {
+		DC1D071D2001FED0008B1000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1D06E32001EF14008B1000 /* ColorHex.framework in Frameworks */,
+				DC1D07252001FED0008B1000 /* ColorHex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				DC1D06702001E1B8008B1000 /* ColorHex */,
-				DC1D06D02001EE78008B1000 /* ColorHex_iOSTests */,
-				DC1D06DF2001EF13008B1000 /* ColorHex_macOSTests */,
+				DC1D07122001FE7B008B1000 /* ColorHex_iOSTests */,
+				DC1D07212001FED0008B1000 /* ColorHex_macOSTests */,
 				DC1D066F2001E1B8008B1000 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +101,8 @@
 			children = (
 				DC1D066E2001E1B8008B1000 /* ColorHex.framework */,
 				DC1D068D2001E25F008B1000 /* ColorHex.framework */,
-				DC1D06CF2001EE78008B1000 /* ColorHex_iOSTests.xctest */,
-				DC1D06DE2001EF13008B1000 /* ColorHex_macOSTests.xctest */,
+				DC1D07112001FE7B008B1000 /* ColorHex_iOSTests.xctest */,
+				DC1D07202001FED0008B1000 /* ColorHex_macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,20 +119,20 @@
 			path = ColorHex;
 			sourceTree = "<group>";
 		};
-		DC1D06D02001EE78008B1000 /* ColorHex_iOSTests */ = {
+		DC1D07122001FE7B008B1000 /* ColorHex_iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC1D06D12001EE78008B1000 /* ColorHex_iOSTests.swift */,
-				DC1D06D32001EE78008B1000 /* Info.plist */,
+				DC1D07132001FE7B008B1000 /* ColorHex_iOSTests.swift */,
+				DC1D07152001FE7B008B1000 /* Info.plist */,
 			);
 			path = ColorHex_iOSTests;
 			sourceTree = "<group>";
 		};
-		DC1D06DF2001EF13008B1000 /* ColorHex_macOSTests */ = {
+		DC1D07212001FED0008B1000 /* ColorHex_macOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC1D06E02001EF13008B1000 /* ColorHex_macOSTests.swift */,
-				DC1D06E22001EF13008B1000 /* Info.plist */,
+				DC1D07222001FED0008B1000 /* ColorHex_macOSTests.swift */,
+				DC1D07242001FED0008B1000 /* Info.plist */,
 			);
 			path = ColorHex_macOSTests;
 			sourceTree = "<group>";
@@ -195,40 +195,40 @@
 			productReference = DC1D068D2001E25F008B1000 /* ColorHex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC1D06CE2001EE78008B1000 /* ColorHex_iOSTests */ = {
+		DC1D07102001FE7B008B1000 /* ColorHex_iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC1D06D72001EE78008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_iOSTests" */;
+			buildConfigurationList = DC1D07192001FE7B008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_iOSTests" */;
 			buildPhases = (
-				DC1D06CB2001EE78008B1000 /* Sources */,
-				DC1D06CC2001EE78008B1000 /* Frameworks */,
-				DC1D06CD2001EE78008B1000 /* Resources */,
+				DC1D070D2001FE7B008B1000 /* Sources */,
+				DC1D070E2001FE7B008B1000 /* Frameworks */,
+				DC1D070F2001FE7B008B1000 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC1D06D62001EE78008B1000 /* PBXTargetDependency */,
+				DC1D07182001FE7B008B1000 /* PBXTargetDependency */,
 			);
 			name = ColorHex_iOSTests;
 			productName = ColorHex_iOSTests;
-			productReference = DC1D06CF2001EE78008B1000 /* ColorHex_iOSTests.xctest */;
+			productReference = DC1D07112001FE7B008B1000 /* ColorHex_iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DC1D06DD2001EF13008B1000 /* ColorHex_macOSTests */ = {
+		DC1D071F2001FED0008B1000 /* ColorHex_macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC1D06E62001EF14008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_macOSTests" */;
+			buildConfigurationList = DC1D07282001FED0008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_macOSTests" */;
 			buildPhases = (
-				DC1D06DA2001EF13008B1000 /* Sources */,
-				DC1D06DB2001EF13008B1000 /* Frameworks */,
-				DC1D06DC2001EF13008B1000 /* Resources */,
+				DC1D071C2001FED0008B1000 /* Sources */,
+				DC1D071D2001FED0008B1000 /* Frameworks */,
+				DC1D071E2001FED0008B1000 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC1D06E52001EF14008B1000 /* PBXTargetDependency */,
+				DC1D07272001FED0008B1000 /* PBXTargetDependency */,
 			);
 			name = ColorHex_macOSTests;
 			productName = ColorHex_macOSTests;
-			productReference = DC1D06DE2001EF13008B1000 /* ColorHex_macOSTests.xctest */;
+			productReference = DC1D07202001FED0008B1000 /* ColorHex_macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -250,11 +250,11 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					DC1D06CE2001EE78008B1000 = {
+					DC1D07102001FE7B008B1000 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					DC1D06DD2001EF13008B1000 = {
+					DC1D071F2001FED0008B1000 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -274,8 +274,8 @@
 			targets = (
 				DC1D066D2001E1B8008B1000 /* ColorHex-iOS */,
 				DC1D068C2001E25F008B1000 /* ColorHex-macOS */,
-				DC1D06CE2001EE78008B1000 /* ColorHex_iOSTests */,
-				DC1D06DD2001EF13008B1000 /* ColorHex_macOSTests */,
+				DC1D07102001FE7B008B1000 /* ColorHex_iOSTests */,
+				DC1D071F2001FED0008B1000 /* ColorHex_macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,14 +295,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC1D06CD2001EE78008B1000 /* Resources */ = {
+		DC1D070F2001FE7B008B1000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC1D06DC2001EF13008B1000 /* Resources */ = {
+		DC1D071E2001FED0008B1000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,34 +330,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC1D06CB2001EE78008B1000 /* Sources */ = {
+		DC1D070D2001FE7B008B1000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1D06D22001EE78008B1000 /* ColorHex_iOSTests.swift in Sources */,
+				DC1D07142001FE7B008B1000 /* ColorHex_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC1D06DA2001EF13008B1000 /* Sources */ = {
+		DC1D071C2001FED0008B1000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1D06E12001EF13008B1000 /* ColorHex_macOSTests.swift in Sources */,
+				DC1D07232001FED0008B1000 /* ColorHex_macOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC1D06D62001EE78008B1000 /* PBXTargetDependency */ = {
+		DC1D07182001FE7B008B1000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC1D066D2001E1B8008B1000 /* ColorHex-iOS */;
-			targetProxy = DC1D06D52001EE78008B1000 /* PBXContainerItemProxy */;
+			targetProxy = DC1D07172001FE7B008B1000 /* PBXContainerItemProxy */;
 		};
-		DC1D06E52001EF14008B1000 /* PBXTargetDependency */ = {
+		DC1D07272001FED0008B1000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC1D068C2001E25F008B1000 /* ColorHex-macOS */;
-			targetProxy = DC1D06E42001EF14008B1000 /* PBXContainerItemProxy */;
+			targetProxy = DC1D07262001FED0008B1000 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -565,10 +565,9 @@
 			};
 			name = Release;
 		};
-		DC1D06D82001EE78008B1000 /* Debug */ = {
+		DC1D071A2001FE7B008B1000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ColorHex_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -576,14 +575,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "";
 			};
 			name = Debug;
 		};
-		DC1D06D92001EE78008B1000 /* Release */ = {
+		DC1D071B2001FE7B008B1000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ColorHex_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -594,7 +591,7 @@
 			};
 			name = Release;
 		};
-		DC1D06E72001EF14008B1000 /* Debug */ = {
+		DC1D07292001FED0008B1000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
@@ -610,7 +607,7 @@
 			};
 			name = Debug;
 		};
-		DC1D06E82001EF14008B1000 /* Release */ = {
+		DC1D072A2001FED0008B1000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
@@ -656,20 +653,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC1D06D72001EE78008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_iOSTests" */ = {
+		DC1D07192001FE7B008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC1D06D82001EE78008B1000 /* Debug */,
-				DC1D06D92001EE78008B1000 /* Release */,
+				DC1D071A2001FE7B008B1000 /* Debug */,
+				DC1D071B2001FE7B008B1000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC1D06E62001EF14008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_macOSTests" */ = {
+		DC1D07282001FED0008B1000 /* Build configuration list for PBXNativeTarget "ColorHex_macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC1D06E72001EF14008B1000 /* Debug */,
-				DC1D06E82001EF14008B1000 /* Release */,
+				DC1D07292001FED0008B1000 /* Debug */,
+				DC1D072A2001FED0008B1000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

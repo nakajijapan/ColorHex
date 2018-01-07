@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import AppKit
+import ColorHex
 
 class ColorHex_macOSTests: XCTestCase {
     

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import UIKit
+import ColorHex
 
 class ColorHex_iOSTests: XCTestCase {
     
