@@ -11,13 +11,24 @@ import AppKit.NSColor
 extension NSColor {
     
     public convenience init(hex: Int) {
-        self.init(hex:hex, alpha:1.0)
+        self.init(hex:hex, alpha: 1.0)
     }
     
     public convenience init(hex: Int, alpha: CGFloat) {
         let (red, green, blue) = convertToRGB(from: hex)
         self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
+    
+    public convenience init(calibratedHex: Int) {
+        let (red, green, blue) = convertToRGB(from: calibratedHex)
+        self.init(calibratedRed: red, green: green, blue: blue, alpha: 1.0)
+    }
+    
+    public convenience init(calibratedHex: Int, alpha: CGFloat) {
+        let (red, green, blue) = convertToRGB(from: calibratedHex)
+        self.init(calibratedRed: red, green: green, blue: blue, alpha: alpha)
+    }
+    
     
     public class func colorWithHex(hex: Int) -> NSColor {
         return NSColor(hex:hex, alpha:1.0)

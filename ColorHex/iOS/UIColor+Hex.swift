@@ -11,7 +11,7 @@ import UIKit.UIColor
 extension UIColor {
     
     public convenience init(hex:Int) {
-        self.init(hex:hex, alpha:1.0)
+        self.init(hex:hex, alpha: 1.0)
     }
     
     public convenience init(hex: Int, alpha: CGFloat) {
