@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/nakajijapan'
   s.requires_arc     = true
   s.source_files     = 'ColorHex'
-  s.ios.exclude_files = 'ColorHex/iOS'
-  s.osx.exclude_files = 'ColorHex/macOS'
-  s.ios.deployment_target = '11.0'
+  s.ios.source_files = 'ColorHex/iOS/*.swift'
+  s.osx.source_files = 'ColorHex/macOS/*.swift'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.13'
 end
